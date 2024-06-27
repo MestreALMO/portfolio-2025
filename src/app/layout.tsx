@@ -4,7 +4,7 @@ import { TopBar } from "@/components/topBar";
 import { ThemeProvider } from "next-themes";
 import { Roboto } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getMessages } from "next-intl/server";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -15,10 +15,11 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
-  const locale = await getLocale();
   const messages = await getMessages();
 
   return (
