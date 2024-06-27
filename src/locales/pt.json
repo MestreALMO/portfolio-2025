@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "home": {
+      "title": "Bem-vindo!",
+      "text1": "Eu sou André Lusegardis Miranda de Oliveira.",
+      "text2": "É um prazer ter-lo(a) aqui."
+    },
+    "about": {
+      "title": "Sobre",
+      "text1": "Sou um desenvolvedor focado em front-end, minha especialidade é desenvolvimento web, alguns dos códigos que utilizo para trabalhar são: NextJS, ReactJS, TypeScript, JavaScript, HTML, CSS, PHP.",
+      "text2": "Desde criança sempre sonhei em ser desenvolvedor, fazendo meus próprios softwares. Com o passar dos anos, com muito esforço e dedicação para realizar meus sonhos, tornei-os realidade e me tornei desenvolvedor.",
+      "text3": "Hoje aqui estou com meu diploma (bacharelado em sistemas de informação), vários sistemas desenvolvidos e este site de minha autoria exibindo alguns dos meus trabalhos.",
+      "text4": "Entre meus principais hobbies estão: Desenvolver; Assistir séries, animes, youtube; Jogos em PC, consoles e RPG de mesa; Lendo romances, alguns dos livros que gostei são Harry Potter, Percy Jackson e os Olimpianos, Eragon, The Walking Dead."
+    },
+    "contact": {
+      "title": "Contato"
+    },
+    "portfolio": {
+      "title": "Portfólio",
+      "warning": "Clique em qualquer projeto para saber mais sobre ele!"
+    }
+  },
+  "components": {
+    "bottomBar": {
+      "home": "Início",
+      "about": "Sobre",
+      "contact": "Contato",
+      "portfolio": "Portfólio"
+    }
+  }
+}

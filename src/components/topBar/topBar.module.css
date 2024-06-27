@@ -1,0 +1,29 @@
+.main {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  border-bottom: 1px solid #aaa;
+  color: var(--foreground);
+  background: var(--background);
+  max-height: 48px;
+  height: 100%;
+  padding: 0 6px;
+}
+
+[data-theme="dark"] .main {
+  color: var(--foreground-dark);
+  background: var(--background-dark);
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
