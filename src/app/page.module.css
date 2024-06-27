@@ -1,4 +1,4 @@
-.main {
+.homeMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .main {
+  .homeMain {
     padding: 96px 12px;
   }
 }
@@ -19,6 +19,6 @@
   max-width: 310px;
 }
 
-.text {
+.homeText {
   text-align: center;
 }
